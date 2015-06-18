@@ -50,9 +50,10 @@
     //return newly created Cell
     PhotoCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
     
-    cell.imageView.image = [UIImage imageNamed:@"car_image.jpg"];
+    cell.imageView.image = [UIImage imageNamed:@"carImage.jpg"];
     
     return cell;
+    //dsada
 }
 
 @end
